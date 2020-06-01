@@ -1,0 +1,11 @@
+<!-- 上传发布的按钮 -->
+ <button class='btn' bindtap="formSubmit">2.上传发布</button>  
+<!-- 选择图片的按钮 -->
+<button  bindtap="upimg">1.选择图片</button>
+<!-- 显示选中的图片 -->
+<block wx:for="{{img_arr}}">  
+  <view class='logoinfo'>  
+    <image src='{{item}}'></image>  
+  </view>  
+</block>  
+
